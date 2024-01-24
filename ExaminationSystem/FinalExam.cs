@@ -76,7 +76,7 @@ namespace ExaminationSystem
                 }
                 Console.WriteLine($"Question ({i + 1}) :{ListOfQuestions[i].Body}");
                 Console.WriteLine($"Your Answer => {ListOfQuestions[i].UserAnswer.AnswerText}");
-                Console.WriteLine($"Right Answer => {ListOfQuestions[i].AnswerList[i].AnswerText}");
+                Console.WriteLine($"Right Answer => {ListOfQuestions[i].RightAnswer.AnswerText}");
                 Console.WriteLine("----------------------------------------------------------------");
             }
             Console.WriteLine($"Your Grade Is {Grade} out of {TotalMarks}");
